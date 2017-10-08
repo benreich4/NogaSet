@@ -1,0 +1,25 @@
+{
+  "name": "noga",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "watch": "npm-watch"
+  },
+  "watch": {
+    "start": "*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async-request": "^1.2.0",
+    "jQuery": "^1.7.4",
+    "jsdom": "^11.3.0",
+    "log": "^1.4.0",
+    "nodemon": "^1.12.1",
+    "npm-watch": "^0.3.0",
+    "watch-run": "^1.2.5",
+    "web-request": "^1.0.7"
+  }
+}
